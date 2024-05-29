@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="icon" type="image/x-icon" href="/images/icon.png">
+    <link rel="stylesheet" href="proyecto.css">
+</head>
+<body>
+    <header>
+        <img class="icon" src="/images/icon.png">
+        <h1>BIENVENIDO A VIDEOBLOG</h1>
+    </header>
+    
+    <h2>Aquí encontrarás información relevante y las novedades más importantes sobre los videojuegos de moda</h2>
+   
+    <div class="centerform">
+    <h3>Formulario de acceso</h3>
+    <form action="https://jkorpela.fi/cgi-bin/echo.cgi" method="_post">
+        <label for="nom">Usuario:</label><br/>
+        <input type="text" name="nom" id="nom" required><br/>
+        <br/>
+        <label for="psw">Contraseña:</label><br/>
+        <input type="password" name="psw" id="psw" required><br/>
+        <br/>
+        <label for="psw">Vuelve a introducir la contraseña:</label><br/>
+        <input type="password" name="psw" id="psw" required><br/>
+        <br/>
+        <label for="date">Fecha de nacimiento:</label><br/>
+        <input type="date" name="date" id="date"><br/>
+        <br/>
+        <label>Videojuego favorito:</label><br/>
+        <input type="radio" id="fifa">Fifa<br/>
+        <input type="radio" id="cod">COD<br/>
+        <input type="radio" id="mario">Mario Bross<br/>
+        <input type="radio" id="pkm">Pokemon<br/>
+        <input type="radio" id="for">Fortnite<br/>
+        <input type="radio" id="otro">Otro<br/>
+        <br/>
+        <label>Frecuencia con la que juegas:</label>
+        <select>
+            <option value="d" selected>Diario</option>
+            <option value="c">Casi a diario</option>
+            <option value="s">Según la época</option>
+            <option value="p">Pocas veces</option>
+            <option value="n">Nunca</option>
+        </select>
+        <br/>
+        <br/>
+        <input type="checkbox">Acepto los términos y condiciones de uso
+        <br/>
+        <br/>
+        <input class="sub" type="submit" value="Enviar">
+        <input class="del" type="reset" value="Borrar">
+    </form>
+    </br>
+    <fieldset class="f">
+    <p>Volver a índice:</p>
+    <a href="index.html">Volver a índice</a>
+    </fieldset>
+    </br>
+    </br>
+    </div>
+    <div class="right">
+        <img class="imgc" src="/images/imagenFor.png" alt="imagen formulario">
+    </div>
+</body>
+<footer>VIDEOBLOG</footer>
+</html>
